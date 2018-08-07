@@ -389,7 +389,7 @@ def about():
     {% for post in posts %}
       <article>
         <h1>{{ post.title }}</h1>
-        <p>{{ post.content}}</p>
+        <p>{{ post.content }}</p>
         <div>
           <p>{{ post.author.username }}</p>
           <p>{{ post.date_posted.strftime('%Y-%m-%d') }}</p>
