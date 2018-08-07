@@ -47,8 +47,9 @@ def about():
 ## 템플릿
 
 Flask에서는 보여지는 부분과 처리하는 부분을 나누기 위해 템플릿이라는 기능을 제공합니다.
-려우
-템플릿에 사용되는 파일들은 `templates` 디렉터리에 저장되며 일반적으로 .html 파일을 사용합니다. 또한 css 같은 파일들은 `static` 디렉터리에 저장합니다.
+
+템플릿에 사용되는 파일들은 `templates` 디렉터리에 저장되며 일반적으로 .html 파일을 사용합니다.
+또한 css 같은 파일들은 `static` 디렉터리에 저장합니다.
 어플리케이션 상에서 이러한 html 파일들을 렌더링할 수 있도록 Flask에서는 `render_template`를 제공하는데요.
 [Jinja2](http://jinja.pocoo.org/) 템플릿 엔진을 사용해서 html 문서 내에 코드 조각들을 삽입하여 웹 페이지를 동적으로 생성할 수 있습니다.
 
@@ -150,7 +151,7 @@ def about():
 {% endhighlight %}
 </figure>
 
-Jinja2 템플릿 엔진은 구문(Statement)의 경우 `{% raw %}{% %}{% endraw %}`로, 표현(Expression)은 `{{ }}`로 감싸서 표시합니다. 주석의 경우에는 `{# #}`을 이용해 작성할 수 있습니다.
+Jinja2 템플릿 엔진은 구문(Statement)의 경우 `{% raw %}{% %}{% endraw %}`로, 표현(Expression)은 `{% raw %}{{ }}{% endraw %}`로 감싸서 표시합니다. 주석의 경우에는 `{# #}`을 이용해 작성할 수 있습니다.
 
 파일을 보면 `{% raw %}{% block <이름> %}{% endraw %}` 태그가 보이는데 이 태그는 상속받은 템플릿에서 사용할 수 있는 공간을 정의합니다.
 
@@ -366,7 +367,7 @@ def about():
 
 ![제목이 변경된 About 페이지]({{ "/assets/img/flask_blog_tutorials-chapter-2/title_about.png" | absolute_url }})
 
-### 포스트 동적 생성
+### 게시물 동적 생성
 
 `index.html` 파일을 보면 게시물 정보가 하드코드 되어 있는 것을 확인할 수 있습니다.
 실제 웹 페이지는 db에서 가져온 포스트를 기반으로 보여줘야 하기 때문에 `app.py`에서 포스트에 대한 정보를 넘겨줄 수 있도록 작성하겠습니다.
@@ -402,7 +403,7 @@ def about():
 {% endhighlight %}
 </figure>
 
-현재는 db가 구성되지 않았으므로 테스트를 위해 더미 데이터를 만들고 이를 템플릿에 넘겨주겠습니다.
+현재는 db가 구성되지 않았으므로 테스트를 위해 더미 데이터를 만들고 이를 템플릿에 넘겨주겠습니다. `app.py` 파일을 열고 다음과 같이 수정합니다.
 
 <figure>
 {% highlight python linenos %}
@@ -453,16 +454,14 @@ html파일을 보면 `href` 속성이 `/`, `/about`과 같이 하드코드 되�
 지금이야 이러한 속성들이 문제되지 않지만 `app.py`에서 라우트가 변경되거나 전체 프로젝트가 특정 홈페이지의 하위로 이동하는 경우 URL이 달라질 수 있어 제대로 된 URL을 가르키지 못할 수 있습니다.
 
 따라서 이를 동적으로 생성할 수 있도록 변경해야 하는데 flask에서는 `url_for`라는 함수로 지원합니다.
-
 기본적으로 `url_for`함수는 엔드포인트 함수명을 인자로 받습니다.
-
 따라서 `/` 주소를 생성하고 싶다면 app.py에서 `/` 라우트에 대한 함수 이름을 `index`로 정의했으므로 `url_for('index')`를 사용해야 합니다.
 
 만약 `/about` 주소를 생성하고 싶다면 `url_for('about')`을 사용해야 합니다.
 
 또한 `url_for`함수로 `static` 폴더 내에 있는 리소스의 주소를 생성할 수도 있는데, 이는 `url_for('static', filename=<파일 이름>>)`를 이용합니다.
 
-그러면 layout.html 파일에서 하드 코드 된 url들을 모두 `url_for` 함수를 이용해 동적생성 하도록 변경하겠습니다.
+이제 layout.html 파일에서 하드 코드 된 url들을 모두 `url_for` 함수를 이용해 동적생성 하도록 변경하겠습니다.
 
 <figure>
   <figcaption>파일: /templates/layout.html</figcaption>
