@@ -204,10 +204,12 @@ flask_blog/
 {% endhighlight %}
 </figure>
 
+* 메인 페이지
+
 ![부트스트랩이 적용된 메인 페이지]({{ "/assets/img/flask_blog_tutorials-chapter-3/bootstrap_index.png" | absolute_url }})
 
+* About 페이지
 
 ![부트스트랩이 적용된 About 페이지]({{ "/assets/img/flask_blog_tutorials-chapter-3/bootstrap_about.png" | absolute_url }})
-
 
 현재까지 작성된 전체 코드는 [Flask blog tutorial Chapter3](https://github.com/LazyRichard/flask_blog_tutorial/tree/Chapter_3)에서 확인할 수 있습니다.
