@@ -393,6 +393,37 @@ def index():
 {% endhighlight %}
 </figure>
 
+그리고 `index.html` 파일을 수정해 `holder.js`를 통해 이미지를 보여줄 공간만 마련했던 것을 실제 데이터와 연결 하도록 하겠습니다.
+
+<figure>
+  <figurecaption>파일: /templates/index.html</figurecaption>
+{% highlight jinja %}
+{% raw %}
+{% for post in posts %}
+<article>
+  <hr>
+  <div class="row">
+    <div class="col">
+      <a class="h1" href="#">{{ post.title }}</a>
+      <p class="text-justify">{{ post.content }}</p>
+    </div>
+    <div class="col-md-2 d-flex flex-column">
+      <img class="rounded-circle mx-auto" src="{{ url_for('static', filename='profile_imgs/' + post.author.profile_image)}}" data-src="holder.js/64x64" width="64px" height="64px">
+      <p class="text-muted text-center">{{ post.author.username }}</p>
+    </div>
+  </div>
+  <small class="text-muted">{{ post.date_posted.strftime('%Y-%m-%d') }}</small>
+</article>
+{% endfor %}
+{% endraw %}
+{% endhighlight %}
+</figure>
+
+`<article>` 태그가 있는 부분에 `<img>` 태그를 보면 `src="#"`로 비어있는 것을 확인할 수 있습니다.
+이를 `static/profile_imgs` 하위에 저장 되어 있는 프로필 사진들로 연결합니다.
+
+![변경전후 프로필 사진]({{ "/assets/img/flask_blog_tutorials-chapter-4/before_after.png" | absolute_url }})
+
 ## 기본 프로필 이미지 저장
 
 `User` 모델에 기본 프로필 이미지로 `default.png`를 적어주었습니다.
