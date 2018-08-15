@@ -144,7 +144,7 @@ False
 맞는 경우에는 `True`를 틀린 경우에는 `False`를 반환하는 것을 알 수 있는데요.
 
 이제 코드 상에서 비밀번호를 암호화, 복호화 하는 코드를 작성하겠습니다.
-먼저 `app.py` 파일에 `werkzurg.security`에서 `generate_password_hash`와 `check_password_hash`를 임포트 합니다.
+먼저 `app.py` 파일에 `werkzeug.security`에서 `generate_password_hash`와 `check_password_hash`를 임포트 합니다.
 
 <figure>
   <figurecaption>파일: /app.py</figurecaption>
@@ -153,7 +153,7 @@ from datetime import datetime
 
 from flask import Flask, render_template
 from flask_sqlahcmey import SQLAlchemy
-from werkzurg.security import generate_password_hash, check_password_hash
+from werkzeug.security import generate_password_hash, check_password_hash
 
 # ...
 {% endhighlight %}
