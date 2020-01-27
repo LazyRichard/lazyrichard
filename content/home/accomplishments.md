@@ -5,12 +5,12 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Accomplish&shy;ments"
+title = "수상내역"
 subtitle = ""
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "Jan 2006"
+# date_format = "Jan 2006"
 
 # Accomplishments.
 #   Add/remove as many `[[item]]` blocks below as you like.
@@ -19,33 +19,29 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
-  url = ""
-  certificate_url = "https://www.coursera.org"
+  organization = "국회도서관"
+  organization_url = "https://www.nanet.go.kr"
+  title = "제 2회 국회도서관 해커톤: 개방형 클라우드 플랫폼 파스-타 기반 서비스 개발 및 아이디어 공모전 금상"
+  url = "https://nanet.go.kr/webzine/201912/sub_news2.html"
+  date_start = "2019-12-18"
+  date_end = ""
+
+[[item]]
+  organization = "다쏘시스템코리아"
+  organization_url = "https://www.3ds.com/ko/"
+  title = "솔리드웍스 디자인 콘테스트 2015 장려상"
+  # url = "https://www.3ds.com/ko/press-releases/single/solidworks-3d-modeling-competition/"
+  # certificate_url = "https://www.coursera.org"
   date_start = "2018-10-01"
   date_end = ""
   description = ""
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
-  date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
-  
-[[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  organization = "한국산업기술대학교"
+  organization_url = "https://www.kpu.ac.kr"
+  title = "2018년도 제 1회 창의적 사업계획서 경진대회(대학원트랙) 우수상"
   url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
+  # certificate_url = "https://www.datacamp.com"
+  date_start = "2018-12-11"
 
 +++
