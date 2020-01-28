@@ -1,6 +1,6 @@
 ---
 title: Agries
-summary: 클라우드 기반 스마트팜 작물 생작 데이터 분석 시스템
+summary: 클라우드 기반 스마트팜 작물 생장 데이터 분석 시스템
 tags:
 - Cloud
 - Deep Learning
