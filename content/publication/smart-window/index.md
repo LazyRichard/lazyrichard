@@ -29,7 +29,7 @@ abstract: 최근 스마트폰의 보급화 및 IT기술의 발달로 인해 사�
 
 tags:
 - Source Themes
-featured: true
+featured: false
 
 links:
 url_pdf: ""
