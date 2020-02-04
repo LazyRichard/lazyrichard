@@ -1,8 +1,12 @@
 ---
 title: 아두이노 무드등
-summary: NodeMCU와 WS2812b를 활용한 애니메이션 무드등
+summary: "NodeMCU와 WS2812b를 활용한 애니메이션 무드등<br/>
+ddd
+"
 tags:
 date: "2019-04-01T00:00:00Z"
+weight: 60
+draft: true
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
