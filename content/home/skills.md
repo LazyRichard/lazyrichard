@@ -19,7 +19,13 @@ subtitle = ""
   icon_pack = "fab"
   name = "Python"
   description = "Advanced"
-  
+
+[[feature]]
+  icon_pack = "devicon"
+  icon="cplusplus-plain"
+  name="C/C++"
+  description = "Intermediate"
+
 [[feature]]
   icon = "vuejs"
   icon_pack = "fab"
