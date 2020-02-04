@@ -1,10 +1,10 @@
 ---
 title: 서버/클라이언트 기반 채팅 및 P2P 파일 공유 시스템
-summary: "서버/클라이언트 기반 그룹 채팅 및 P2P 파일 공유 시스템"
+summary: "서버/클라이언트 기반 그룹 채팅 및 P2P 파일 공유 시스템<br/>
+리눅스 epoll을 사용한 IO 다중화 서버 모델 채용으로 싱글 쓰레드로 기능 구현"
 tags:
-- Cloud
-- Deep Learning
 - Term Project
+- Other
 date: "2019-12-18T00:00:00Z"
 weight: 60
 
