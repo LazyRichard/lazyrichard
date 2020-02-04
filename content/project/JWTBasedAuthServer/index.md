@@ -5,6 +5,7 @@ tags:
 - Cloud
 - IoT
 date: "2018-12-01T00:00:00Z"
+weight: 50
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
