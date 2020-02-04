@@ -3,7 +3,7 @@ title: 리버스 방탈출 아기돼지 삼형제 장치
 summary: "아두이노 기반 센서와 PySide2(PyQT5)를 활용한 방탈출용 장치 설계 및 제작<br/>
 리버스 방탈출 장치 납품"
 tags:
-- IoT
+- Other
 date: "2019-03-01T00:00:00Z"
 weight: 40
 

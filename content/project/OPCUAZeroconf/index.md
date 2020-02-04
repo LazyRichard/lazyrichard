@@ -5,6 +5,7 @@ summary: "OPC-UA 서버와 다양한 통신 방식을 갖는 장치간 자동 �
 tags:
 - IoT
 - OPC-UA
+- Term Project
 date: "2017-10-01T00:00:00Z"
 weight: 20
 
