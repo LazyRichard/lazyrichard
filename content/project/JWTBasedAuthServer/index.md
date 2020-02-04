@@ -1,6 +1,7 @@
 ---
 title: MSA를 이용한 JWT 기반 IoT 인증 서버
-summary: IoT 장치들을 MSA에서 인증하기 위한 클라우드 서버
+summary: "IoT 장치가 있는 클라우드 서버에서 토큰 인증을 위한 MSA 구조의 클라우드 어플리케이션<br/>
+"
 tags:
 - Cloud
 - IoT
