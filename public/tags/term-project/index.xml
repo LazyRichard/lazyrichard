@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Term Project | JMLab.me</title>
+    <link>/tags/term-project/</link>
+      <atom:link href="/tags/term-project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Term Project</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ko-kr</language><lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Term Project</title>
+      <link>/tags/term-project/</link>
+    </image>
+    
+    <item>
+      <title>OPC-UA 서버-장치간 자동 연결 시스템</title>
+      <link>/project/opcuazeroconf/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>/project/opcuazeroconf/</guid>
+      <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
+&lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2017.11.02 ~ 2017.12.07 (약 1개월)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;역할&#34;&gt;역할&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;설계 및 개발&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;다양한 종류의 장치를 OPC-UA 서버에 연결하기 위해 필요한 복잡한 절차를 자동화
+사용자는 장치에 전원을 공급하면 OPC-UA에서 장치를 자동으로 검색해 연결 가능&lt;/li&gt;
+&lt;li&gt;장치에서 제공하는 기능들을 OPC-UA 인포메이션 모델로 기술하여 연결 시점에 서버로 전송함으로써 장치를 사용하기 위한 추가적인 설정 불필요&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;2019 스마트공장 • 자동화산업전 스마트공장 운영설계 전문인력 양성사업 우수 프로젝트 발표&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;사용-기술--프레임워크&#34;&gt;사용 기술 / 프레임워크&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Node-RED(javascript), OPC-UA(Python), Arduino(C++), mDNS, mDNS-SD&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>서버/클라이언트 기반 채팅 및 P2P 파일 공유 시스템</title>
+      <link>/project/linuxp2pchatserver/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/project/linuxp2pchatserver/</guid>
+      <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
+&lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2016.10.11 ~ 2016.12.19 (약 2개월)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;역할&#34;&gt;역할&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;팀장&lt;/li&gt;
+&lt;li&gt;설계 및 개발&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Epoll을 활용한 싱글 쓰레드 기반 채팅 및 P2P 파일 공유 서버로 다중 클라이언트 지원 가능&lt;/li&gt;
+&lt;li&gt;추가적인 기능 추가가 용이하도록 서버/클라이언트 간 유연한 프로토콜 설계&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;해당 수업 텀프로젝트 만점으로 A+ 성적&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;사용-기술--프레임워크&#34;&gt;사용 기술 / 프레임워크&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;C, Multi-thread, epoll&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
