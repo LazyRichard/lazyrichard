@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="서준민">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="솔리드웍스 곡면기능을 활용한 거미 모델링&lt;br/&gt; 솔리드웍스 디자인 콘테스트 장려상 수상">
+
+  
+  <link rel="alternate" hreflang="ko-kr" href="/project/rcweb/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/project/rcweb/">
+
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="JMLab.me">
+  <meta property="og:url" content="/project/rcweb/">
+  <meta property="og:title" content="RC 거미 | JMLab.me">
+  <meta property="og:description" content="솔리드웍스 곡면기능을 활용한 거미 모델링&lt;br/&gt; 솔리드웍스 디자인 콘테스트 장려상 수상"><meta property="og:image" content="/project/rcweb/featured.png">
+  <meta property="twitter:image" content="/project/rcweb/featured.png"><meta property="og:locale" content="ko-kr">
+  
+    
+      <meta property="article:published_time" content="2015-11-01T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2015-11-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/project/rcweb/"
+  },
+  "headline": "RC 거미",
+  
+  "image": [
+    "/project/rcweb/featured.png"
+  ],
+  
+  "datePublished": "2015-11-01T00:00:00Z",
+  "dateModified": "2015-11-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "서준민"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "JMLab.me",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "img//"
+    }
+  },
+  "description": "솔리드웍스 곡면기능을 활용한 거미 모델링\u003cbr/\u003e 솔리드웍스 디자인 콘테스트 장려상 수상"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+  <title>RC 거미 | JMLab.me</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>검색</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="검색..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">JMLab.me</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="네비게이션">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">JMLab.me</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>RC 거미</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Nov 1, 2015
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/RC-Webs.pdf" target="_blank" rel="noopener">
+  발표자료
+</a>
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 571px; max-height: 521px;">
+  <div style="position: relative">
+    <img src="/project/rcweb/featured.png" alt="" class="featured-image">
+    <span class="article-header-caption">RC 거미 렌더링 이미지</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h1 id="프로젝트-개요">프로젝트 개요</h1>
+<h2 id="수행기간">수행기간</h2>
+<ul>
+<li>2019.02.26 ~ 2019.03.28 (약 1개월)</li>
+</ul>
+<h2 id="역할">역할</h2>
+<ul>
+<li>디자인</li>
+</ul>
+<h1 id="주요-활동">주요 활동</h1>
+<ul>
+<li>솔리드웍스 곡면 기능을 활용한 디자인</li>
+<li>탑-다운(Top-Down) 방식의 설계기법 적용</li>
+</ul>
+<h1 id="성과">성과</h1>
+<ul>
+<li>솔리드웍스 디자인 콘테스트 2015 장려상</li>
+</ul>
+<h1 id="사용-기술--프레임워크">사용 기술 / 프레임워크</h1>
+<ul>
+<li>Solidworks</li>
+</ul>
+<h1 id="세부-내용">세부 내용</h1>
+<h2 id="곡면-기능을-활용한-디자인">곡면 기능을 활용한 디자인</h2>
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="/project/rcweb/fig1_hu476f7bdc25d02f70b7051d47a2ef1186_130936_2000x2000_fit_lanczos_2.png" data-caption="곡면 기능을 활용한 몸체 디자인">
+
+
+  <img data-src="/project/rcweb/fig1_hu476f7bdc25d02f70b7051d47a2ef1186_130936_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="427" height="339">
+</a>
+
+
+  
+  
+  <figcaption>
+    곡면 기능을 활용한 몸체 디자인
+  </figcaption>
+
+
+</figure>
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="/project/rcweb/fig2_hudd308b4d4b6f7dc7a4f0a0381153bad5_93780_2000x2000_fit_lanczos_2.png" data-caption="로프트 기능을 활용한 꼬리 디자인">
+
+
+  <img data-src="/project/rcweb/fig2_hudd308b4d4b6f7dc7a4f0a0381153bad5_93780_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="432" height="366">
+</a>
+
+
+  
+  
+  <figcaption>
+    로프트 기능을 활용한 꼬리 디자인
+  </figcaption>
+
+
+</figure>
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="/project/rcweb/fig4_hub300f539f390661e4c5262c818dd9a9b_68448_2000x2000_fit_lanczos_2.png" data-caption="배 형상">
+
+
+  <img data-src="/project/rcweb/fig4_hub300f539f390661e4c5262c818dd9a9b_68448_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="424" height="241">
+</a>
+
+
+  
+  
+  <figcaption>
+    배 형상
+  </figcaption>
+
+
+</figure>
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="/project/rcweb/fig5_hue485659c9cae87953d921e06a7cba56b_46023_2000x2000_fit_lanczos_2.png" data-caption="배 디자인">
+
+
+  <img data-src="/project/rcweb/fig5_hue485659c9cae87953d921e06a7cba56b_46023_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="407" height="280">
+</a>
+
+
+  
+  
+  <figcaption>
+    배 디자인
+  </figcaption>
+
+
+</figure>
+
+<h2 id="탑-다운top-down-설계-기법">탑-다운(Top-Down) 설계 기법</h2>
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="/project/rcweb/fig3_hu8b15d4218b7818fceec280c2422111c7_113236_2000x2000_fit_lanczos_2.png" data-caption="탑-다운 기법을 활용한 파트">
+
+
+  <img data-src="/project/rcweb/fig3_hu8b15d4218b7818fceec280c2422111c7_113236_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="424" height="445">
+</a>
+
+
+  
+  
+  <figcaption>
+    탑-다운 기법을 활용한 파트
+  </figcaption>
+
+
+</figure>
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="/project/rcweb/fig6_hub89fe2b17d57e7f312d060c6a196a0e3_116408_2000x2000_fit_lanczos_2.png" data-caption="탑-다운 기법을 활용한 유니버셜 조인트 링크">
+
+
+  <img data-src="/project/rcweb/fig6_hub89fe2b17d57e7f312d060c6a196a0e3_116408_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="451" height="344">
+</a>
+
+
+  
+  
+  <figcaption>
+    탑-다운 기법을 활용한 유니버셜 조인트 링크
+  </figcaption>
+
+
+</figure>
+
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/3d-modeling/">3D Modeling</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"검색 결과 없음","placeholder":"검색...","results":"검색 결과"};
+      const content_type = {
+        'post': "포스트",
+        'project': "프로젝트",
+        'publication' : "논문",
+        'talk' : "강연"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.0630fec5958cb075a5a38f042b3ddde6.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">인용</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 복사
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 다운로드
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
