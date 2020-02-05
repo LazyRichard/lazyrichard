@@ -15,8 +15,8 @@ image:
   focal_point: Smart
 
 links:
-- name: 리버스 방탈출 바로가기
-  url: https://www.reverseescape.com/
+#- name: 리버스 방탈출 바로가기
+#  url: https://www.reverseescape.com/
 url_code: ""
 url_pdf: ""
 url_slides: ""
