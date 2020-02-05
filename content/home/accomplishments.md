@@ -21,7 +21,7 @@ subtitle = ""
 [[item]]
   organization = "국회도서관"
   organization_url = "https://www.nanet.go.kr"
-  title = "제 2회 국회도서관 해커톤: 개방형 클라우드 플랫폼 파스-타 기반 서비스 개발 및 아이디어 공모전 금상"
+  title = "제 2회 국회도서관 해커톤: 개방형 클라우드 플랫폼 파스-타 기반 서비스 개발 및 아이디어 공모전 국회도서관장상(금상)"
   url = "https://nanet.go.kr/webzine/201912/sub_news2.html"
   date_start = "2019-12-18"
   date_end = ""
