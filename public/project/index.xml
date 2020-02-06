@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | JMLab.me</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ko-kr</language><lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>Agries</title>
+      <link>/project/agries/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/project/agries/</guid>
+      <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
+&lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2019.05.10 ~ 2020.01.31 (약 9개월)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;역할&#34;&gt;역할&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;설계 및 개발&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;기존 자체 소프트웨어를 통해 열람이 가능했던 환경 데이터를 웹 및 엑셀과 같은 외부 소프트웨어 연계 가능하도록 자동화&lt;/li&gt;
+&lt;li&gt;온실의 수확량 데이터와 환경 데이터를 이용, 딥러닝 분석 기법(LSTM)을 적용해 미래 5일간의 수확량 예측 데이터 제공&lt;/li&gt;
+&lt;li&gt;MSA를 적용한 클라우드에 적합한 구조로 쿠버네티스를 활용해 어플리케이션 배포.&lt;/li&gt;
+&lt;li&gt;국산 PaaS인 파스-타를 활용한 웹 프론트엔드 배포&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;농장 환경 데이터 웹 및 엑셀을 통한 접근 가능&lt;/li&gt;
+&lt;li&gt;제 2회 국회도서관 해커톤 국회도서관장상(금상) 수상&lt;/li&gt;
+&lt;li&gt;학위 논문 주제 및 제출&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;사용-기술--프레임워크&#34;&gt;사용 기술 / 프레임워크&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Flask, Tensorflow, Pandas, Postgresql, OpenAPI, Docker/Kubernetes, Vue.js&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OPC-UA 서버-장치간 자동 연결 시스템</title>
+      <link>/project/opcuazeroconf/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>/project/opcuazeroconf/</guid>
+      <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
+&lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2017.11.02 ~ 2017.12.07 (약 1개월)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;역할&#34;&gt;역할&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;설계 및 개발&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;다양한 종류의 장치를 OPC-UA 서버에 연결하기 위해 필요한 복잡한 절차를 자동화
+사용자는 장치에 전원을 공급하면 OPC-UA에서 장치를 자동으로 검색해 연결 가능&lt;/li&gt;
+&lt;li&gt;장치에서 제공하는 기능들을 OPC-UA 인포메이션 모델로 기술하여 연결 시점에 서버로 전송함으로써 장치를 사용하기 위한 추가적인 설정 불필요&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;2019 스마트공장 • 자동화산업전 스마트공장 운영설계 전문인력 양성사업 우수 프로젝트 발표&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;사용-기술--프레임워크&#34;&gt;사용 기술 / 프레임워크&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Node-RED(javascript), OPC-UA(Python), Arduino(C++), mDNS, mDNS-SD&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>리버스 방탈출 소녀의 기억 장치</title>
+      <link>/project/revescapememory/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/project/revescapememory/</guid>
+      <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
+&lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2019.05.02 ~ 2019.07.31 (약 3개월)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;역할&#34;&gt;역할&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;설계 및 개발&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;라즈베리파이 및 자체 제작한 PCB를 활용해 특정 RFID 태그가 감지되면 적합한 사진을 출력하는 시스템 제작&lt;/li&gt;
+&lt;li&gt;TCP/IP를 활용한 서버/클라이언트 구조를 채택하여 웹 콘솔, GUI 등 다양한 클라이언트를 효과적으로 지원할 수 있는 유연한 구조&lt;/li&gt;
+&lt;li&gt;3D 모델링 및 프린팅을 활용한 맞춤형 장치 디자인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;웹 콘솔을 통한 장치 모니터링 및 제어 가능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;사용-기술--프레임워크&#34;&gt;사용 기술 / 프레임워크&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Sanic(Python), PySide2(PyQT5), Vue.js(javascript), Arduino(C++), Solidworks, 3D Printing&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>리버스 방탈출 아기돼지 삼형제 장치</title>
+      <link>/project/revescapethreelittlepigs/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/project/revescapethreelittlepigs/</guid>
+      <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
+&lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2019.02.26 ~ 2019.03.28 (약 1개월)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;역할&#34;&gt;역할&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;설계 및 개발&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;라즈베리파이 및 자체 제작한 PCB를 활용해 특정 RFID 태그가 감지되면 적합한 영상을 재생하는 시스템 제작&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;PC가 아닌 임베디드 장비를 활용한 장치 개발로 재료비 50% 이상 감소&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;사용-기술--프레임워크&#34;&gt;사용 기술 / 프레임워크&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;PySide2(PyQT5), Arduino(C++), Solidworks, 3D Printing&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MSA를 이용한 JWT 기반 IoT 인증 서버</title>
+      <link>/project/jwtbasedauthserver/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/project/jwtbasedauthserver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>서버/클라이언트 기반 채팅 및 P2P 파일 공유 시스템</title>
+      <link>/project/linuxp2pchatserver/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/project/linuxp2pchatserver/</guid>
+      <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
+&lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2016.10.11 ~ 2016.12.19 (약 2개월)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;역할&#34;&gt;역할&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;팀장&lt;/li&gt;
+&lt;li&gt;설계 및 개발&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Epoll을 활용한 싱글 쓰레드 기반 채팅 및 P2P 파일 공유 서버로 다중 클라이언트 지원 가능&lt;/li&gt;
+&lt;li&gt;추가적인 기능 추가가 용이하도록 서버/클라이언트 간 유연한 프로토콜 설계&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;해당 수업 텀프로젝트 만점으로 A+ 성적&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;사용-기술--프레임워크&#34;&gt;사용 기술 / 프레임워크&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;C, Multi-thread, epoll&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SmartWindow</title>
+      <link>/project/smartwindow/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>/project/smartwindow/</guid>
+      <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
+&lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2016.03.02 ~ 2016.11.20 (약 9개월)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;역할&#34;&gt;역할&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;팀장&lt;/li&gt;
+&lt;li&gt;시스템 설계 및 소프트웨어 개발&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;팀장으로 프로젝트 전체 일정 조율 및 설계&lt;/li&gt;
+&lt;li&gt;아두이노 펌웨어 제작&lt;/li&gt;
+&lt;li&gt;안드로이드 어플리케이션 제작&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;산학대전 전시&lt;/li&gt;
+&lt;li&gt;한이음 멘토링 프로젝트로 학술대회 논문 발표&lt;/li&gt;
+&lt;li&gt;졸업 작품 제작&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;사용-기술--프레임워크&#34;&gt;사용 기술 / 프레임워크&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Arduino(C++), Android(JAVA), Solidworks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;세부-내용&#34;&gt;세부 내용&lt;/h1&gt;
+&lt;h2 id=&#34;결과&#34;&gt;결과&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;동작 결과 Youtube 영상&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/P-OxtRl_hzc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>USEED 라인 트레이서 모델링</title>
+      <link>/project/useedlinetracer/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>/project/useedlinetracer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RC 거미</title>
+      <link>/project/rcweb/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>/project/rcweb/</guid>
+      <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
+&lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2019.02.26 ~ 2019.03.28 (약 1개월)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;역할&#34;&gt;역할&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;디자인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;솔리드웍스 곡면 기능을 활용한 디자인&lt;/li&gt;
+&lt;li&gt;탑-다운(Top-Down) 방식의 설계기법 적용&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;솔리드웍스 디자인 콘테스트 2015 장려상&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;사용-기술--프레임워크&#34;&gt;사용 기술 / 프레임워크&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Solidworks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;세부-내용&#34;&gt;세부 내용&lt;/h1&gt;
+&lt;h2 id=&#34;곡면-기능을-활용한-디자인&#34;&gt;곡면 기능을 활용한 디자인&lt;/h2&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/rcweb/fig1_hu476f7bdc25d02f70b7051d47a2ef1186_130936_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;곡면 기능을 활용한 몸체 디자인&#34;&gt;
+
+
+  &lt;img data-src=&#34;/project/rcweb/fig1_hu476f7bdc25d02f70b7051d47a2ef1186_130936_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;427&#34; height=&#34;339&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    곡면 기능을 활용한 몸체 디자인
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/rcweb/fig2_hudd308b4d4b6f7dc7a4f0a0381153bad5_93780_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;로프트 기능을 활용한 꼬리 디자인&#34;&gt;
+
+
+  &lt;img data-src=&#34;/project/rcweb/fig2_hudd308b4d4b6f7dc7a4f0a0381153bad5_93780_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;432&#34; height=&#34;366&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    로프트 기능을 활용한 꼬리 디자인
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/rcweb/fig4_hub300f539f390661e4c5262c818dd9a9b_68448_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;배 형상&#34;&gt;
+
+
+  &lt;img data-src=&#34;/project/rcweb/fig4_hub300f539f390661e4c5262c818dd9a9b_68448_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;424&#34; height=&#34;241&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    배 형상
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/rcweb/fig5_hue485659c9cae87953d921e06a7cba56b_46023_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;배 디자인&#34;&gt;
+
+
+  &lt;img data-src=&#34;/project/rcweb/fig5_hue485659c9cae87953d921e06a7cba56b_46023_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;407&#34; height=&#34;280&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    배 디자인
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;탑-다운top-down-설계-기법&#34;&gt;탑-다운(Top-Down) 설계 기법&lt;/h2&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/rcweb/fig3_hu8b15d4218b7818fceec280c2422111c7_113236_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;탑-다운 기법을 활용한 파트&#34;&gt;
+
+
+  &lt;img data-src=&#34;/project/rcweb/fig3_hu8b15d4218b7818fceec280c2422111c7_113236_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;424&#34; height=&#34;445&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    탑-다운 기법을 활용한 파트
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/rcweb/fig6_hub89fe2b17d57e7f312d060c6a196a0e3_116408_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;탑-다운 기법을 활용한 유니버셜 조인트 링크&#34;&gt;
+
+
+  &lt;img data-src=&#34;/project/rcweb/fig6_hub89fe2b17d57e7f312d060c6a196a0e3_116408_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;451&#34; height=&#34;344&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    탑-다운 기법을 활용한 유니버셜 조인트 링크
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

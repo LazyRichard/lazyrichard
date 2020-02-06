@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud | JMLab.me</title>
+    <link>/tags/cloud/</link>
+      <atom:link href="/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cloud</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ko-kr</language><lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Cloud</title>
+      <link>/tags/cloud/</link>
+    </image>
+    
+    <item>
+      <title>Agries</title>
+      <link>/project/agries/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/project/agries/</guid>
+      <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
+&lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2019.05.10 ~ 2020.01.31 (약 9개월)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;역할&#34;&gt;역할&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;설계 및 개발&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;기존 자체 소프트웨어를 통해 열람이 가능했던 환경 데이터를 웹 및 엑셀과 같은 외부 소프트웨어 연계 가능하도록 자동화&lt;/li&gt;
+&lt;li&gt;온실의 수확량 데이터와 환경 데이터를 이용, 딥러닝 분석 기법(LSTM)을 적용해 미래 5일간의 수확량 예측 데이터 제공&lt;/li&gt;
+&lt;li&gt;MSA를 적용한 클라우드에 적합한 구조로 쿠버네티스를 활용해 어플리케이션 배포.&lt;/li&gt;
+&lt;li&gt;국산 PaaS인 파스-타를 활용한 웹 프론트엔드 배포&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;농장 환경 데이터 웹 및 엑셀을 통한 접근 가능&lt;/li&gt;
+&lt;li&gt;제 2회 국회도서관 해커톤 국회도서관장상(금상) 수상&lt;/li&gt;
+&lt;li&gt;학위 논문 주제 및 제출&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;사용-기술--프레임워크&#34;&gt;사용 기술 / 프레임워크&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Flask, Tensorflow, Pandas, Postgresql, OpenAPI, Docker/Kubernetes, Vue.js&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MSA를 이용한 JWT 기반 IoT 인증 서버</title>
+      <link>/project/jwtbasedauthserver/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/project/jwtbasedauthserver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>클라우드 기반 스마트팜 작물 생장 데이터 분석 시스템 설계 및 구현</title>
+      <link>/publication/cloud-based-crop-management-system-thesis/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/cloud-based-crop-management-system-thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
