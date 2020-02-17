@@ -1,3 +1,6 @@
+# Editor
+.vscode
+
 # Hugo default output directory
 /resources
 /public
