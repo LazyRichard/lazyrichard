@@ -21,7 +21,7 @@ links:
 #  name: Follow
 #  url: https://twitter.com/georgecushen
 url_code: "https://bitbucket.org/JunminSeo/kpu_eos_termproject"
-url_pdf: "files/P2P-Project-Report.pdf"
+url_pdf: "files/P2P-Project-Reports.pdf"
 url_slides: ""
 url_video: ""
 
