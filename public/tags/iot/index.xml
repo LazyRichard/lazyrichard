@@ -18,6 +18,10 @@
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       <guid>/project/opcuazeroconf/</guid>
       <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
+&lt;h2 id=&#34;프로젝트-배경&#34;&gt;프로젝트 배경&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;공장에서 사용하는 다양한 장치를 서버와 연결하여 실 사용 환경을 구축할 때, 스마트 기기에 능숙하지 않은 작업자는 어려워 하는 점에 착안해 OPC-UA 서버의 인포메이션 모델을 활용하여 장치와 서버간 제로 구성(Zero configuration) 시스템 개발&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;2017.11.02 ~ 2017.12.07 (약 1개월)&lt;/li&gt;
@@ -28,9 +32,10 @@
 &lt;/ul&gt;
 &lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;다양한 종류의 장치를 OPC-UA 서버에 연결하기 위해 필요한 복잡한 절차를 자동화
-사용자는 장치에 전원을 공급하면 OPC-UA에서 장치를 자동으로 검색해 연결 가능&lt;/li&gt;
-&lt;li&gt;장치에서 제공하는 기능들을 OPC-UA 인포메이션 모델로 기술하여 연결 시점에 서버로 전송함으로써 장치를 사용하기 위한 추가적인 설정 불필요&lt;/li&gt;
+&lt;li&gt;OPC-UA의 파이썬 구현체를 사용하여 라즈베리파이 기반 서버 구현&lt;/li&gt;
+&lt;li&gt;mDNS와 mDNS-SD를 활용해 다양한 종류의 장치를 네트워크 내에서 검색&lt;/li&gt;
+&lt;li&gt;각 센서에서 지원하는 기능들을 XML형태의 Information Model로 기술하여 저장 하여 연결 시점에 서버로 전송함으로써 장치를 사용하기 위한 추가적인 설정 불필요&lt;/li&gt;
+&lt;li&gt;장치를 검색하고 연결하는 UI를 Node-RED를 이용해 제작하여 사용자는 드롭다운 메뉴로 검색된 장치를 확인할 수 있고 버튼 몇 번으로 장치 등록 가능&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
 &lt;ul&gt;
@@ -49,6 +54,15 @@
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       <guid>/project/revescapememory/</guid>
       <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
+&lt;h2 id=&#34;프로젝트-배경&#34;&gt;프로젝트 배경&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;리버스 방탈출 아기돼지 삼형제 후속 프로젝트로 총 9개 RFID 태그를 활용해 적합한 사진을 출력하는 시스템 개발&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;프로젝트-목표&#34;&gt;프로젝트 목표&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;라즈베리파이 및 태그 인식 센서를 활용해 특정 RFID 태그가 감지되면 적합한 사진을 출력하는 시스템 제작&lt;/li&gt;
+&lt;li&gt;원격에서도 손 쉽게 시스템의 상태와 제어를 할 수 있는 웹 기반 콘솔 기능이 포함된 장치 제작&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;2019.05.02 ~ 2019.07.31 (약 3개월)&lt;/li&gt;
@@ -59,8 +73,8 @@
 &lt;/ul&gt;
 &lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;라즈베리파이 및 자체 제작한 PCB를 활용해 특정 RFID 태그가 감지되면 적합한 사진을 출력하는 시스템 제작&lt;/li&gt;
-&lt;li&gt;TCP/IP를 활용한 서버/클라이언트 구조를 채택하여 웹 콘솔, GUI 등 다양한 클라이언트를 효과적으로 지원할 수 있는 유연한 구조&lt;/li&gt;
+&lt;li&gt;라즈베리파이에 Python Async 웹 프레임워크인 Sanic을 사용해서 서버 설계. 센서 데이터는 ZeroMQ를 활용해 서버와 통신 가능한 구조로 설계&lt;/li&gt;
+&lt;li&gt;Vue.js 기반 웹 콘솔과 QT5기반 GUI는 REST-API를 통해 서버와 통신. 모든 이벤트는 Server Sent Event를 활용해 시스템 상태 변동을 이벤트 기반 제어가능하도록 설계&lt;/li&gt;
 &lt;li&gt;3D 모델링 및 프린팅을 활용한 맞춤형 장치 디자인&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
