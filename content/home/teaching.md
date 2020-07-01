@@ -4,7 +4,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 100  # Order that this section will appear.
 
-title = "강의"
+title = "강의경력"
 +++
 
 ### 산업단지 스마트공장 전문인력양성사업 교육훈련 강사
