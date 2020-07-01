@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-#role: Professor of Artificial Intelligence
+role: Software Engineer
 
 # Organizations/Affiliations
-#organizations:
-#- name: Stanford University
-#  url: ""
+organizations:
+- name: "리얼텍세미콘덕터코퍼레이션코리아오피스"
+  url: "https://www.realtek.com/en/contact-us-en/cu-2-en-2/category/sales-2-korea-en"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 3D 모델링과 프로그래밍에 관심이 있다.
