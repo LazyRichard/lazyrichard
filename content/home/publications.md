@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
-title = "최신 논문"
+title = "최신논문"
 subtitle = ""
 
 [content]
