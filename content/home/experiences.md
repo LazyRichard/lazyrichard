@@ -25,4 +25,12 @@ date_format = "2006-01"
   date_start = "2020-05-11"
   date_end = ""
 
+[[experience]]
+  title = "석사 연구원"
+  company = "한국산업기술대학교 IT-SOC 연구실"
+  company_url = ""
+  location = "경기 시흥"
+  date_start = "2017-09-01"
+  date_end = "2020-02-14"
+
 +++
