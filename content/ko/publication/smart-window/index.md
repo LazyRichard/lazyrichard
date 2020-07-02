@@ -22,7 +22,7 @@ publication_types: ["1"]
 publication: 한국정보과학회 학술발표논문집
 publication_short: 한국정보과학회 학술발표논문집
 
-abstract: 최근 스마트폰의 보급화 및 IT기술의 발달로 인해 사람의 직접 개입 없이 사물이 스스로 다른 사물 혹은 서버와 정보를 주고 받는1)등 주변 사물을 네트워크 하에 구축하여 편리성을 극대화 시키는 사물인터넷(IoT) 기술이 개척되었고, 그 시장이 전 세계적으로 급격히 확대되고 있다. 우리는 이 점에 착안하여 1) 평상시에는 손으로 여닫을 수 있고, 2) 외출 시에 원격으로 창문을 여닫을 수 있어 비나 먼지 등으로 인한 피해를 최소화 할 수 있으며, 3) 추가적으로 센서를 부착하여 기상환경 변화를 감지하여 스스로 닫히는 창문을 개발하였다.
+abstract: 최근 스마트폰의 보급화 및 IT기술의 발달로 인해 사람의 직접 개입 없이 사물이 스스로 다른 사물 혹은 서버와 정보를 주고 받는등 주변 사물을 네트워크 하에 구축하여 편리성을 극대화 시키는 사물인터넷(IoT) 기술이 개척되었고, 그 시장이 전 세계적으로 급격히 확대되고 있다. 우리는 이 점에 착안하여 1) 평상시에는 손으로 여닫을 수 있고, 2) 외출 시에 원격으로 창문을 여닫을 수 있어 비나 먼지 등으로 인한 피해를 최소화 할 수 있으며, 3) 추가적으로 센서를 부착하여 기상환경 변화를 감지하여 스스로 닫히는 창문을 개발하였다.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
