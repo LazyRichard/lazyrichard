@@ -1,3 +1,4 @@
+{{ $site := .site }}
 {{ $item := .item }}
 {{ $widget := .widget }}
 
@@ -49,7 +50,7 @@
       <div class="btn-links">
         {{/* 상세 페이지 버튼 */}}
         {{- if $do_link}}<a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ $link }}" rel="noopener">
-            세부내용
+          {{ i18n "btn_detail" }}
         </a>{{end -}}
 
         {{ partial "page_links" (dict "page" $item "is_list" 0) }}

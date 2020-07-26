@@ -1,0 +1,4 @@
+# layouts/partials/portfolio_li_showcase.html
+
+- id: btn_detail
+  translation: Detail
