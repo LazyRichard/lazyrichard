@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 | JMLab.me</title>
+    <link>/publication-type/7/</link>
+      <atom:link href="/publication-type/7/index.xml" rel="self" type="application/rss+xml" />
+    <description>7</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ko-kr</language><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>7</title>
+      <link>/publication-type/7/</link>
+    </image>
+    
+    <item>
+      <title>클라우드 기반 스마트팜 작물 생장 데이터 분석 시스템 설계 및 구현</title>
+      <link>/publication/cloud-based-crop-management-system-thesis/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/cloud-based-crop-management-system-thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
