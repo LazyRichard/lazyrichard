@@ -1,21 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Source Themes | JMLab.me</title>
+    <title>Source Themes on JMLab.me</title>
     <link>/tags/source-themes/</link>
-      <atom:link href="/tags/source-themes/index.xml" rel="self" type="application/rss+xml" />
-    <description>Source Themes</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ko-kr</language><lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Source Themes</title>
-      <link>/tags/source-themes/</link>
-    </image>
-    
+    <description>Recent content in Source Themes on JMLab.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate><atom:link href="/tags/source-themes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>사물 인터넷을 이용한 능동적 반응형 창문 개발</title>
       <link>/publication/smart-window/</link>
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
       <guid>/publication/smart-window/</guid>
       <description></description>
     </item>
