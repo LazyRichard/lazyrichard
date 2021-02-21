@@ -1,16 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | JMLab.me</title>
+    <title>Authors on JMLab.me</title>
     <link>/authors/</link>
-      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
-    <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ko-kr</language><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Authors</title>
-      <link>/authors/</link>
-    </image>
+    <description>Recent content in Authors on JMLab.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/admin/</guid>
+      <description>새로운 분야에 대한 도전의식과 넓은 지식을 통해 문제를 해결하는 융합형 인재. 학부과정에서 기계공학으로 입학한 후 임베디드, 프로그래밍 등에 대한 관심이 높아 전자</description>
+    </item>
+    
+    <item>
+      <title>김영곤</title>
+      <link>/authors/%EA%B9%80%EC%98%81%EA%B3%A4/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/%EA%B9%80%EC%98%81%EA%B3%A4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>김태형</title>
+      <link>/authors/%EA%B9%80%ED%83%9C%ED%98%95/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/%EA%B9%80%ED%83%9C%ED%98%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>전수</title>
+      <link>/authors/%EC%A0%84%EC%88%98/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/%EC%A0%84%EC%88%98/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>지현우</title>
+      <link>/authors/%EC%A7%80%ED%98%84%EC%9A%B0/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/%EC%A7%80%ED%98%84%EC%9A%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>최예림</title>
+      <link>/authors/%EC%B5%9C%EC%98%88%EB%A6%BC/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/%EC%B5%9C%EC%98%88%EB%A6%BC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>하태균</title>
+      <link>/authors/%ED%95%98%ED%83%9C%EA%B7%A0/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/%ED%95%98%ED%83%9C%EA%B7%A0/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

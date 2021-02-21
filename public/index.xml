@@ -1,230 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JMLab.me</title>
     <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>JMLab.me</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ko-kr</language><lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>JMLab.me</title>
-      <link>/</link>
-    </image>
-    
+    <description>Recent content on JMLab.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agries</title>
       <link>/project/agries/</link>
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
       <guid>/project/agries/</guid>
-      <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
-&lt;h2 id=&#34;프로젝트-배경&#34;&gt;프로젝트 배경&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;국책과제 &amp;ldquo;과채류 재배에 최적화된 하이브리드 보광등 개발&amp;quot;을 수행하던 중, 생산량 개선 등의 효과 분석 방안 논의 도중 온실에서 사용중인 환경 제어 시스템과 작물 생장 데이터 수집 프로세스가 너무 복잡한 것을 발견하여 이를 개선하고자 기획&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;프로젝트-목표&#34;&gt;프로젝트 목표&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;자체 소프트웨어를 통해서만 열람이 가능했던 환경 데이터를 서버 기술과 자동화를 통해 웹 및 엑셀과 같은 외부 소프트웨어와 연계 가능하도록 제작하여 환경 데이터의 접근성 향상&lt;/li&gt;
-&lt;li&gt;온실에서 측정하는 생육 데이터의 효과적인 관리를 위한 관리 시스템 및 환경 데이터와 연계하여 미래 수확량 예측 기능을 제공&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;2019.05.10 ~ 2020.01.31 (약 9개월)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;역할&#34;&gt;역할&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;설계 및 개발&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Python Flask 기반 백엔드 및 Vue.js 기반 프론트 엔드로 구성하고 Postgresql를 데이터베이스로 사용&lt;/li&gt;
-&lt;li&gt;자체 환경 제어 솔루션에서 사용하는 CSV파일을 Redis MQ기반 Worker를 이용해 파싱하여 REST API를 통한 JSON 형태로 제공. 엑셀 및 PowerBI와 같은 다양한 소프트웨어를 통해 환경 데이터 실시간 접근 가능&lt;/li&gt;
-&lt;li&gt;SPA 웹 프론트엔드 라이브러리로 반응형 프론트 엔드 제작&lt;/li&gt;
-&lt;li&gt;딥러닝 알고리즘(LSTM)을 적용해 온실의 수확량 데이터와 환경 데이터를 이용하여 미래 5일간의 수확량 예측 데이터 제공&lt;/li&gt;
-&lt;li&gt;Gitlab을 이용한 형상 관리 및 Docker 이미지 제작으로 클라우드에 적합한 구조.&lt;/li&gt;
-&lt;li&gt;쿠버네티스로 서버, DB, Redis, Worker 어플리케이션을 배포하였고 국산 PaaS인 파스-타를 활용해 웹 프론트엔드 배포
-Open-API 및 Open-API Generator을 활용한 개발 프로세스 적용으로 개발 기간 단축&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;농장 환경 데이터 웹 및 엑셀을 통한 접근 가능&lt;/li&gt;
-&lt;li&gt;제 2회 국회도서관 해커톤 국회도서관장상(금상) 수상&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;클라우드 기반 스마트팜 작물 생장 데이터 분석 시스템 설계 및 구현&amp;rdquo; 석사 학위 논문&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;사용-기술--프레임워크&#34;&gt;사용 기술 / 프레임워크&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Flask, Tensorflow, Pandas, Postgresql, OpenAPI, Docker/Kubernetes, Vue.js&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>클라우드 기반 스마트팜 작물 생장 데이터 분석 시스템&lt;br/&gt; 국회도서관 해커톤 금상 수상</description>
     </item>
     
     <item>
       <title>OPC-UA 서버-장치간 자동 연결 시스템</title>
       <link>/project/opcuazeroconf/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
       <guid>/project/opcuazeroconf/</guid>
-      <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
-&lt;h2 id=&#34;프로젝트-배경&#34;&gt;프로젝트 배경&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;공장에서 사용하는 다양한 장치를 서버와 연결하여 실 사용 환경을 구축할 때, 스마트 기기에 능숙하지 않은 작업자는 어려워 하는 점에 착안해 OPC-UA 서버의 인포메이션 모델을 활용하여 장치와 서버간 제로 구성(Zero configuration) 시스템 개발&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;2017.11.02 ~ 2017.12.07 (약 1개월)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;역할&#34;&gt;역할&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;설계 및 개발&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;OPC-UA의 파이썬 구현체를 사용하여 라즈베리파이 기반 서버 구현&lt;/li&gt;
-&lt;li&gt;mDNS와 mDNS-SD를 활용해 다양한 종류의 장치를 네트워크 내에서 검색&lt;/li&gt;
-&lt;li&gt;각 센서에서 지원하는 기능들을 XML형태의 Information Model로 기술하여 저장 하여 연결 시점에 서버로 전송함으로써 장치를 사용하기 위한 추가적인 설정 불필요&lt;/li&gt;
-&lt;li&gt;장치를 검색하고 연결하는 UI를 Node-RED를 이용해 제작하여 사용자는 드롭다운 메뉴로 검색된 장치를 확인할 수 있고 버튼 몇 번으로 장치 등록 가능&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;2019 스마트공장 • 자동화산업전 스마트공장 운영설계 전문인력 양성사업 우수 프로젝트 발표&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;사용-기술--프레임워크&#34;&gt;사용 기술 / 프레임워크&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Node-RED(javascript), OPC-UA(Python), Arduino(C++), mDNS, mDNS-SD&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>OPC-UA 서버와 다양한 통신 방식을 갖는 장치간 자동 검색 및 연결(Zeroconf) 구현&lt;br/&gt; 스마트공장 운영설계 전문인력 양성사업 우수 프로젝트 발표</description>
     </item>
     
     <item>
       <title>리버스 방탈출 소녀의 기억 장치</title>
       <link>/project/revescapememory/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
       <guid>/project/revescapememory/</guid>
-      <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
-&lt;h2 id=&#34;프로젝트-배경&#34;&gt;프로젝트 배경&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;리버스 방탈출 아기돼지 삼형제 후속 프로젝트로 총 9개 RFID 태그를 활용해 적합한 사진을 출력하는 시스템 개발&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;프로젝트-목표&#34;&gt;프로젝트 목표&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;라즈베리파이 및 태그 인식 센서를 활용해 특정 RFID 태그가 감지되면 적합한 사진을 출력하는 시스템 제작&lt;/li&gt;
-&lt;li&gt;원격에서도 손 쉽게 시스템의 상태와 제어를 할 수 있는 웹 기반 콘솔 기능이 포함된 장치 제작&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;2019.05.02 ~ 2019.07.31 (약 3개월)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;역할&#34;&gt;역할&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;설계 및 개발&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;라즈베리파이에 Python Async 웹 프레임워크인 Sanic을 사용해서 서버 설계. 센서 데이터는 ZeroMQ를 활용해 서버와 통신 가능한 구조로 설계&lt;/li&gt;
-&lt;li&gt;Vue.js 기반 웹 콘솔과 QT5기반 GUI는 REST-API를 통해 서버와 통신. 모든 이벤트는 Server Sent Event를 활용해 시스템 상태 변동을 이벤트 기반 제어가능하도록 설계&lt;/li&gt;
-&lt;li&gt;3D 모델링 및 프린팅을 활용한 맞춤형 장치 디자인&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;웹 콘솔을 통한 장치 모니터링 및 제어 가능&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;사용-기술--프레임워크&#34;&gt;사용 기술 / 프레임워크&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Sanic(Python), PySide2(PyQT5), Vue.js(javascript), Arduino(C++), Solidworks, 3D Printing&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>아두이노 기반 센서에 PySide2(PyQT5)와 aync http framework를 활용한 MSA 기반 방탈출용 장치 설계 및 제작.&lt;br/&gt; 리버스 방탈출 웹 모니터링 가능 장치 납품</description>
     </item>
     
     <item>
       <title>리버스 방탈출 아기돼지 삼형제 장치</title>
       <link>/project/revescapethreelittlepigs/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
       <guid>/project/revescapethreelittlepigs/</guid>
-      <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
-&lt;h2 id=&#34;프로젝트-배경&#34;&gt;프로젝트 배경&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;기존 업체에서 사용하던 시스템이 PC Unity 기반이라 장비 가격이 높고, 브레드보드를 이용한 임베디드 장치 설계로 잦은 오작동과 유지보수가 어려운 문제점 발생.&lt;/li&gt;
-&lt;li&gt;라즈베리파이를 기반으로한 제어 컨트롤러 채용으로 재료비 절감 효과 및 자체 설계한 PCB를 이용한 센서로 높은 안정성을 통해 문제를 해결하고자 프로젝트 제안&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;프로젝트-목표&#34;&gt;프로젝트 목표&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;특정 RFID 태그가 감지되면 적합한 영상을 출력하는 시스템 개발&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;2019.02.26 ~ 2019.03.28 (약 1개월)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;역할&#34;&gt;역할&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;설계 및 개발&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;라즈베리파이에 QT5기반 GUI 프로그램을 통해 영상을 출력하는 시스템 제작. 외부 센서 데이터는 Multi-Thread 기반 수집 프로그램과 자체 설계한 프로토콜을 사용해 송수신&lt;/li&gt;
-&lt;li&gt;자체 제작한 PCB를 활용한 센서 모듈을 통해 안정적인 태그 인식 및 통신&lt;/li&gt;
-&lt;li&gt;3D 모델링 및 프린팅을 활용한 맞춤형 기구 장치 디자인&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;PC가 아닌 임베디드 장비를 활용한 장치 개발로 재료비 50% 이상 감소&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;사용-기술--프레임워크&#34;&gt;사용 기술 / 프레임워크&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;PySide2(PyQT5), Arduino(C++), Solidworks, 3D Printing&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>아두이노 기반 센서와 PySide2(PyQT5)를 활용한 방탈출용 장치 설계 및 제작&lt;br/&gt; 리버스 방탈출 장치 납품</description>
     </item>
     
     <item>
       <title>MSA를 이용한 JWT 기반 IoT 인증 서버</title>
       <link>/project/jwtbasedauthserver/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
       <guid>/project/jwtbasedauthserver/</guid>
-      <description></description>
+      <description>IoT 장치가 있는 클라우드 서버에서 토큰 인증을 위한 MSA 구조의 클라우드 어플리케이션&lt;br/&gt;</description>
     </item>
     
     <item>
       <title>서버/클라이언트 기반 채팅 및 P2P 파일 공유 시스템</title>
       <link>/project/linuxp2pchatserver/</link>
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
       <guid>/project/linuxp2pchatserver/</guid>
-      <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
-&lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;2016.10.11 ~ 2016.12.19 (약 2개월)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;역할&#34;&gt;역할&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;팀장&lt;/li&gt;
-&lt;li&gt;설계 및 개발&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Epoll을 활용한 싱글 쓰레드 기반 채팅 및 P2P 파일 공유 서버로 다중 클라이언트 지원 가능&lt;/li&gt;
-&lt;li&gt;추가적인 기능 추가가 용이하도록 서버/클라이언트 간 유연한 프로토콜 설계&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;해당 수업 텀프로젝트 만점으로 A+ 성적&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;사용-기술--프레임워크&#34;&gt;사용 기술 / 프레임워크&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;C, Multi-thread, epoll&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>서버/클라이언트 기반 그룹 채팅 및 P2P 파일 공유 시스템&lt;br/&gt; 리눅스 epoll을 사용한 IO 다중화 서버 모델 채용으로 싱글 쓰레드로 기능 구현</description>
     </item>
     
     <item>
       <title>클라우드 기반 스마트팜 작물 생장 데이터 분석 시스템 설계 및 구현</title>
       <link>/publication/cloud-based-crop-management-system-thesis/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
       <guid>/publication/cloud-based-crop-management-system-thesis/</guid>
-      <description></description>
+      <description>국내 농업은 농가 감소, 고령화 등의 문제로 농업의 성장, 소득, 수출이 정체되고 있어 많은 어려움이 있다. 이를 극복하기 위한 방안으로 농업에 4차 산업혁명의 중요한 흐름 중 하나인 정보 통신 기술을 접목한 스마트 팜 적용의 중요성이 커지고 있다. 하지만 현재의 농작물 관리 시스템은 대부분 온실 내부 환경 모니터링과 원격 제어 기능에 초점을 맞추고 있어 생육 데이터 수집을 통한 생산량 예측 등의 과학적 활용이 미비하다. 본 논문에서 제안하는 클라우드 기반 작물 생육 데이터 수집·분석 시스템은 클라우드 환경에 적합한 아키텍처를 적용하여 개발 및 유지보수가 쉽고, 유연한 데이터 구조로 다양한 생육 데이터를 손쉽게 저장 및 관리가 가능하다. 또한 딥러닝 기법을 적용한 수확량 예측 기능은 농업인에게 경영 지표와 설정된 환경 제어 값을 검증할 수 있는 기반을 제공한다. 이를 통해 향후 4차 산업혁명과 인공지능 시대에 맞는 최적화된 농작물 관리 인프라 구현이 가능하며, 기존의 국내 농가들의 경쟁력 향상에 기여할 수 있을 것으로 기대한다.</description>
     </item>
     
     <item>
       <title>IoT 미들웨어 플랫폼을 활용한 무선모듈형 화재감지 시스템의 구현</title>
       <link>/publication/fire-detection-system-using-iot-middleware/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
       <guid>/publication/fire-detection-system-using-iot-middleware/</guid>
       <description></description>
     </item>
@@ -233,6 +83,7 @@ Open-API 및 Open-API Generator을 활용한 개발 프로세스 적용으로 �
       <title>사물 인터넷을 이용한 능동적 반응형 창문 개발</title>
       <link>/publication/smart-window/</link>
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
       <guid>/publication/smart-window/</guid>
       <description></description>
     </item>
@@ -241,307 +92,27 @@ Open-API 및 Open-API Generator을 활용한 개발 프로세스 적용으로 �
       <title>SmartWindow</title>
       <link>/project/smartwindow/</link>
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      
       <guid>/project/smartwindow/</guid>
-      <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
-&lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;2016.03.02 ~ 2016.11.20 (약 9개월)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;역할&#34;&gt;역할&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;팀장&lt;/li&gt;
-&lt;li&gt;시스템 설계 및 소프트웨어 개발&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;팀장으로 프로젝트 전체 일정 조율 및 설계&lt;/li&gt;
-&lt;li&gt;아두이노 펌웨어 제작&lt;/li&gt;
-&lt;li&gt;안드로이드 어플리케이션 제작&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;산학대전 전시&lt;/li&gt;
-&lt;li&gt;한이음 멘토링 프로젝트로 학술대회 논문 발표&lt;/li&gt;
-&lt;li&gt;졸업 작품 제작&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;사용-기술--프레임워크&#34;&gt;사용 기술 / 프레임워크&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Arduino(C++), Android(JAVA), Solidworks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;세부-내용&#34;&gt;세부 내용&lt;/h1&gt;
-&lt;h2 id=&#34;결과&#34;&gt;결과&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;동작 결과 Youtube 영상&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/P-OxtRl_hzc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
+      <description>Android 앱을 통한 제어 및 수동 조작이 가능한 반응형 창문&lt;br/&gt; 졸업작품 및 한이음 프로젝트</description>
     </item>
     
     <item>
       <title>USEED 라인 트레이서 모델링</title>
       <link>/project/useedlinetracer/</link>
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      
       <guid>/project/useedlinetracer/</guid>
-      <description></description>
+      <description>3D 프린터를 활용한 라인 트레이서 외부 케이스 및 구조 모델링</description>
     </item>
     
     <item>
       <title>RC 거미</title>
       <link>/project/rcweb/</link>
       <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      
       <guid>/project/rcweb/</guid>
-      <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
-&lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;2019.02.26 ~ 2019.03.28 (약 1개월)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;역할&#34;&gt;역할&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;디자인&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;주요-활동&#34;&gt;주요 활동&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;솔리드웍스 곡면 기능을 활용한 디자인&lt;/li&gt;
-&lt;li&gt;탑-다운(Top-Down) 방식의 설계기법 적용&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;성과&#34;&gt;성과&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;솔리드웍스 디자인 콘테스트 2015 장려상&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;사용-기술--프레임워크&#34;&gt;사용 기술 / 프레임워크&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Solidworks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;세부-내용&#34;&gt;세부 내용&lt;/h1&gt;
-&lt;h2 id=&#34;곡면-기능을-활용한-디자인&#34;&gt;곡면 기능을 활용한 디자인&lt;/h2&gt;
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-곡면-기능을-활용한-몸체-디자인&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/rcweb/fig1_hu476f7bdc25d02f70b7051d47a2ef1186_130936_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;곡면 기능을 활용한 몸체 디자인&#34;&gt;
-
-
-  &lt;img data-src=&#34;/project/rcweb/fig1_hu476f7bdc25d02f70b7051d47a2ef1186_130936_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;427&#34; height=&#34;339&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    곡면 기능을 활용한 몸체 디자인
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-로프트-기능을-활용한-꼬리-디자인&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/rcweb/fig2_hudd308b4d4b6f7dc7a4f0a0381153bad5_93780_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;로프트 기능을 활용한 꼬리 디자인&#34;&gt;
-
-
-  &lt;img data-src=&#34;/project/rcweb/fig2_hudd308b4d4b6f7dc7a4f0a0381153bad5_93780_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;432&#34; height=&#34;366&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    로프트 기능을 활용한 꼬리 디자인
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-배-형상&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/rcweb/fig4_hub300f539f390661e4c5262c818dd9a9b_68448_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;배 형상&#34;&gt;
-
-
-  &lt;img data-src=&#34;/project/rcweb/fig4_hub300f539f390661e4c5262c818dd9a9b_68448_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;424&#34; height=&#34;241&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    배 형상
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-배-디자인&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/rcweb/fig5_hue485659c9cae87953d921e06a7cba56b_46023_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;배 디자인&#34;&gt;
-
-
-  &lt;img data-src=&#34;/project/rcweb/fig5_hue485659c9cae87953d921e06a7cba56b_46023_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;407&#34; height=&#34;280&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    배 디자인
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;탑-다운top-down-설계-기법&#34;&gt;탑-다운(Top-Down) 설계 기법&lt;/h2&gt;
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-탑-다운-기법을-활용한-파트&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/rcweb/fig3_hu8b15d4218b7818fceec280c2422111c7_113236_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;탑-다운 기법을 활용한 파트&#34;&gt;
-
-
-  &lt;img data-src=&#34;/project/rcweb/fig3_hu8b15d4218b7818fceec280c2422111c7_113236_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;424&#34; height=&#34;445&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    탑-다운 기법을 활용한 파트
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-탑-다운-기법을-활용한-유니버셜-조인트-링크&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/rcweb/fig6_hub89fe2b17d57e7f312d060c6a196a0e3_116408_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;탑-다운 기법을 활용한 유니버셜 조인트 링크&#34;&gt;
-
-
-  &lt;img data-src=&#34;/project/rcweb/fig6_hub89fe2b17d57e7f312d060c6a196a0e3_116408_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;451&#34; height=&#34;344&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    탑-다운 기법을 활용한 유니버셜 조인트 링크
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-</description>
+      <description>솔리드웍스 곡면기능을 활용한 거미 모델링&lt;br/&gt; 솔리드웍스 디자인 콘테스트 장려상 수상</description>
     </item>
     
   </channel>
