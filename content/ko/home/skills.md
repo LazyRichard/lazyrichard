@@ -27,9 +27,9 @@ subtitle = ""
   description = "Intermediate"
 
 [[feature]]
-  icon = "vuejs"
-  icon_pack = "fab"
-  name = "Vue.js"
+  icon = "typescript-plain"
+  icon_pack = "devicon"
+  name = "Typescript"
   description = "Junior"
   
 [[feature]]
