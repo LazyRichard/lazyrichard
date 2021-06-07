@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Other | JMLab.me</title>
-    <link>/tag/other/</link>
-      <atom:link href="/tag/other/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.jmlab.me/tag/other/</link>
+      <atom:link href="https://www.jmlab.me/tag/other/index.xml" rel="self" type="application/rss+xml" />
     <description>Other</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>ko-kr</language><lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.jmlab.me/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Other</title>
-      <link>/tag/other/</link>
+      <link>https://www.jmlab.me/tag/other/</link>
     </image>
     
     <item>
       <title>리버스 방탈출 아기돼지 삼형제 장치</title>
-      <link>/project/revescapethreelittlepigs/</link>
+      <link>https://www.jmlab.me/project/revescapethreelittlepigs/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>/project/revescapethreelittlepigs/</guid>
+      <guid>https://www.jmlab.me/project/revescapethreelittlepigs/</guid>
       <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
 &lt;h2 id=&#34;프로젝트-배경&#34;&gt;프로젝트 배경&lt;/h2&gt;
 &lt;ul&gt;
@@ -54,9 +54,9 @@
     
     <item>
       <title>서버/클라이언트 기반 채팅 및 P2P 파일 공유 시스템</title>
-      <link>/project/linuxp2pchatserver/</link>
+      <link>https://www.jmlab.me/project/linuxp2pchatserver/</link>
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/project/linuxp2pchatserver/</guid>
+      <guid>https://www.jmlab.me/project/linuxp2pchatserver/</guid>
       <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
 &lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
 &lt;ul&gt;
