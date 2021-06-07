@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Term Project | JMLab.me</title>
-    <link>/tag/term-project/</link>
-      <atom:link href="/tag/term-project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.jmlab.me/tag/term-project/</link>
+      <atom:link href="https://www.jmlab.me/tag/term-project/index.xml" rel="self" type="application/rss+xml" />
     <description>Term Project</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>ko-kr</language><lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.jmlab.me/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Term Project</title>
-      <link>/tag/term-project/</link>
+      <link>https://www.jmlab.me/tag/term-project/</link>
     </image>
     
     <item>
       <title>OPC-UA 서버-장치간 자동 연결 시스템</title>
-      <link>/project/opcuazeroconf/</link>
+      <link>https://www.jmlab.me/project/opcuazeroconf/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>/project/opcuazeroconf/</guid>
+      <guid>https://www.jmlab.me/project/opcuazeroconf/</guid>
       <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
 &lt;h2 id=&#34;프로젝트-배경&#34;&gt;프로젝트 배경&lt;/h2&gt;
 &lt;ul&gt;
@@ -50,9 +50,9 @@
     
     <item>
       <title>서버/클라이언트 기반 채팅 및 P2P 파일 공유 시스템</title>
-      <link>/project/linuxp2pchatserver/</link>
+      <link>https://www.jmlab.me/project/linuxp2pchatserver/</link>
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/project/linuxp2pchatserver/</guid>
+      <guid>https://www.jmlab.me/project/linuxp2pchatserver/</guid>
       <description>&lt;h1 id=&#34;프로젝트-개요&#34;&gt;프로젝트 개요&lt;/h1&gt;
 &lt;h2 id=&#34;수행기간&#34;&gt;수행기간&lt;/h2&gt;
 &lt;ul&gt;
