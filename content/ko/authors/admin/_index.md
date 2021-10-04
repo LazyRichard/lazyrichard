@@ -6,12 +6,12 @@ title: 서준민
 superuser: true
 
 # Role/position
-role: 소프트웨어 엔지니어
+role: g클라우드 시스템 개발
 
 # Organizations/Affiliations
 organizations:
-- name: "리얼텍세미콘덕터코퍼레이션코리아오피스"
-  url: "https://www.realtek.com/en/contact-us-en/cu-2-en-2/category/sales-2-korea-en"
+- name: "가비아"
+  url: "https://www.gabia.com"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 3D 모델링과 프로그래밍에 관심이 있다.

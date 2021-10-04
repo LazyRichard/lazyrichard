@@ -18,12 +18,20 @@ date_format = "2006-01"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "g클라우드 시스템 개발"
+  company = "가비아"
+  company_url = "https://www.gabia.com"
+  location = "경기도"
+  date_start = "2021-05-17"
+  date_end = ""
+
+[[experience]]
   title = "소프트웨어 엔지니어"
   company = "리얼텍세미콘덕터코퍼레이션코리아오피스"
   company_url = "https://www.realtek.com/en/contact-us-en/cu-2-en-2/category/sales-2-korea-en"
   location = "서울"
   date_start = "2020-05-11"
-  date_end = ""
+  date_end = "2021-05-14"
 
 [[experience]]
   title = "석사 연구원"
