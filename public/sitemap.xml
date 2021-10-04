@@ -1,112 +1,184 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://www.jmlab.me/project/agries/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/project/opcuazeroconf/</loc>
     <lastmod>2017-10-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/project/revescapememory/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/project/revescapethreelittlepigs/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/project/jwtbasedauthserver/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/project/linuxp2pchatserver/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/tag/cloud/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/tag/deep-learning/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/tag/other/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/project/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/tags/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/tag/term-project/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/publication-type/7/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/authors/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/publication_types/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/publication/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/authors/admin/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/publication/cloud-based-crop-management-system-thesis/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/tag/iot/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/publication-type/1/</loc>
     <lastmod>2018-11-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/publication/fire-detection-system-using-iot-middleware/</loc>
     <lastmod>2018-11-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/authors/%EA%B9%80%EC%98%81%EA%B3%A4/</loc>
     <lastmod>2018-11-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/authors/%EA%B9%80%ED%83%9C%ED%98%95/</loc>
     <lastmod>2018-11-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/tag/opc-ua/</loc>
     <lastmod>2017-10-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/tag/source-themes/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/publication/smart-window/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/authors/%EC%A0%84%EC%88%98/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/authors/%EC%A7%80%ED%98%84%EC%9A%B0/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/authors/%EC%B5%9C%EC%98%88%EB%A6%BC/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/authors/%ED%95%98%ED%83%9C%EA%B7%A0/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/tag/3d-modeling/</loc>
     <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/project/smartwindow/</loc>
     <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/project/useedlinetracer/</loc>
     <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/project/rcweb/</loc>
     <lastmod>2015-11-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.jmlab.me/categories/</loc>
   </url>
+  
 </urlset>
