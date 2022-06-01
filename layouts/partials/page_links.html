@@ -2,12 +2,12 @@
 {{ $page := .page }}
 {{ $link := "" }}
 
-{{/* ***** TODO: Deprecate `url_preprint` in favour of `url_pdf` given there's now a dedicated "Preprint" pub. type. ***** */}}
 {{/* 상세 페이지 버튼 */}}
 {{ $page_link := $page.RelPermalink }}
 <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ $page_link }}" rel="noopener">
     {{ i18n "btn_detail" }}
 </a>
+{{/* ***** TODO: Deprecate `url_preprint` in favour of `url_pdf` given there's now a dedicated "Preprint" pub. type. ***** */}}
 {{ with $page.Params.url_preprint }}
   {{ $resource := $page.Resources.GetMatch . }}
   {{ if $resource }}
@@ -158,6 +158,6 @@
   {{ end }}
   <a class="btn btn-outline-primary btn-page-header{{ if $is_list }} btn-sm{{end}}" href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
     {{ if .icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} {{if .name}}mr-1{{end}}"></i>{{end}}
-    {{ with .name }}{{ . | safeHTML }}{{end}}
+    {{- with .name }}{{ . | safeHTML }}{{ end -}}
   </a>
 {{ end }}

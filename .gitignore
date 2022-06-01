@@ -3,6 +3,7 @@
 
 # Hugo default output directory
 /resources
+.hugo_build.lock
 
 ## OS Files
 # Windows
