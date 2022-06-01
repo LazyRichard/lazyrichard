@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>지현우 | JMLab.me</title>
+    <link>https://www.jmlab.me/author/%EC%A7%80%ED%98%84%EC%9A%B0/</link>
+      <atom:link href="https://www.jmlab.me/author/%EC%A7%80%ED%98%84%EC%9A%B0/index.xml" rel="self" type="application/rss+xml" />
+    <description>지현우</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ko-kr</language><lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.jmlab.me/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>지현우</title>
+      <link>https://www.jmlab.me/author/%EC%A7%80%ED%98%84%EC%9A%B0/</link>
+    </image>
+    
+    <item>
+      <title>사물 인터넷을 이용한 능동적 반응형 창문 개발</title>
+      <link>https://www.jmlab.me/publication/smart-window/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.jmlab.me/publication/smart-window/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
