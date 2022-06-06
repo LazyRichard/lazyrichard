@@ -1,0 +1,45 @@
+name: build
+
+on:
+  push:
+    tags:
+      - "**"
+
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.95.0'
+          extended: true
+      
+      - name: Build
+        run: hugo --minify
+
+      - name: git config
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: github deploy key
+        env:
+          GH_ACTION_DEPLOY_KEY: ${{ secrets.GH_ACTION_DEPLOY_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$GH_ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+      - name: publish
+        run: |  
+          cd public
+          git init .
+          git remote add origin git@github.com:LazyRichard/lazyrichard.github.io.git
+          git add -A
+          git commit -m "$(git -C ../static-site-generator/ log --format=%B -n 1)"
+          git push --force origin master
