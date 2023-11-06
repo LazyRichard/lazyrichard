@@ -15,8 +15,8 @@ sections:
       date_format: 2006-01
       items:
         - title: "제 6회 개발형 클라우드 플랫폼 기반 서비스 개발 아이디어 공모전(동상)"
-          orgination: NIA PaaS-TA
-          orgination_url: http://paas-ta.co.kr/awardList_2022.jsp
+          organization: "NIA PaaS-TA"
+          organization_url: http://paas-ta.co.kr/awardList_2022.jsp
           date_start: 2022-12-27
         - title: "제 2회 국회도서관 해커톤: 개발형 클라우드 플랫폼 파스-타 기반 서비스 개발 및 아이디어 공모전 국회도서관장상(금상)"
           organization: 국회도서관
