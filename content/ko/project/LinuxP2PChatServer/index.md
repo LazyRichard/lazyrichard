@@ -5,7 +5,7 @@ summary: "서버/클라이언트 기반 그룹 채팅 및 P2P 파일 공유 시�
 tags:
 - Term Project
 - Other
-date: "2019-12-18T00:00:00Z"
+date: "2016-12-19T00:00:00Z"
 weight: 60
 
 # Optional external URL for project (replaces project detail page).
